@@ -114,8 +114,7 @@ def play_round():
     hand_player.append(deck.draw())
     hand_dealer.append(deck.draw())
     hand_player.append(deck.draw())
-
-    print(hand_dealer)
+    
     print("Dealer is showing a {card1}".format(card1=card_names[hand_dealer[0]]))
     print("You have a {card1} and a {card2}. Do you want another or double? (y/n/d)".format(card1=card_names[hand_player[0]], card2=card_names[hand_player[1]]))
 
